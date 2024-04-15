@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomfret School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #00558b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pomfret School</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="about">
+        <h2>About Pomfret School</h2>
+        <p>Pomfret School is a co-educational independent school located in Pomfret, Connecticut. It was founded in 1894.</p>
+        <p>We offer a rigorous academic program, a wide range of extracurricular activities, and a supportive community environment.</p>
+    </section>
+    <section id="programs">
+        <h2>Programs</h2>
+        <p>Our programs include:</p>
+        <ul>
+            <li>Academic Curriculum</li>
+            <li>Athletics</li>
+            <li>Arts</li>
+            <li>Community Service</li>
+        </ul>
+    </section>
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>If you're interested in applying to Pomfret School, please visit our admissions page for more information.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please contact us at:</p>
+        <p>Email: info@pomfretschool.org</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pomfret School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
